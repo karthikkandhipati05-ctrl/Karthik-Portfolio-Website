@@ -158,11 +158,3 @@ form.addEventListener('submit', () => {
   success.textContent = 'Thanks! Your message is on its way 🚀';
   setTimeout(() => form.reset(), 50);
 });
-
-
-// Ensure external LinkedIn anchors always open profile reliably
-document.querySelectorAll('.linkedin-link').forEach((link) => {
-  link.addEventListener('click', (event) => {
-    event.stopPropagation();
-  });
-});

@@ -44,9 +44,8 @@ A modern, dark-themed personal portfolio for **Karthik Kandhipati**, Senior Data
 1. Push all files to the `main` branch.
 2. The workflow at `.github/workflows/deploy.yml` runs automatically.
 3. In GitHub, go to **Settings → Pages**.
-4. Set **Source** to **Deploy from a branch**.
-5. Select branch **`gh-pages`** and folder **`/(root)`**, then save.
-6. After the workflow succeeds, your site will be available at:
+4. Set **Source** to **GitHub Actions**.
+5. After the workflow succeeds, your site will be available at:
    `https://yourusername.github.io/repo-name`
 
 ## Customization Tips
